@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import Display from "./Components/Display.js";
-import Dashboard from "./Components/Dashboard.js";
+import Display from "./components/DIsplay.js";
+import Dashboard from "./components/Dashboard.js";
 
 function App(props) {
   const clearCount = { strikes: 0, balls: 0 };
